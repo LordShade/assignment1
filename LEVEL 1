@@ -1,0 +1,13 @@
+def level1():
+   w1 = 3
+   w2 = 4
+   w3 = 6
+   w4 = 5
+   w5 = 4
+   w6 = 9
+   w7 = 7
+   makeEmptyPicture(856, 540)
+   return makeEmptyPicture (856, 540)
+   writePictureTo(makeEmptyPicture, r"E:\Studies\lol.png")
+   show
+   
