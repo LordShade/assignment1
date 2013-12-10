@@ -11,3 +11,16 @@ def level1():
    writePictureTo(makeEmptyPicture, r"E:\Studies\lol.png")
    show
    
+# To do for level 1
+# 1. First, you must manually assign (hard code) each of the 7 digits of your RMIT student number to the variables w1 to w7. For example, if your RMIT student number is 7654321, 
+# your w1 should be assigned the value 7, w2 should be assigned the value 6 and so on until w7 is assigned the value 1. No other digits must be used or your output will be incorrect. 
+# It is normal for students to get outputs that may not have a look similar to what has been demonstrated. Please remember that you are marked on the logic and not the aesthetics of your output.
+# 2. Investigate how to use the makeEmptyPicture() function and create an empty image that is 856 pixels wide and 540 pixels tall. After the image is created, it can be used the same way you would use an image that is created using the makePicture() function.
+# 3. As shown in the earlier examples, the ‘level 1’ output will be a greyscale one. I.e. each pixel will have the same value for all three (RGB) of its colour channels. 
+# The generation of the unique image involves visiting each pixel of the image, generating a new colour using a formula and then setting that colour to the pixel. 
+# The formula for calculating either the red, green or blue (as they’re all the same) for each pixel is:
+# value= (sin(x*rad*w2)*cos(y*rad*w3)+1)*127
+# In the above, ‘x’ and ‘y’ are the current pixel’s coordinates within the image and ‘cos’ and ‘sin’ are functions that are already built-in to JES. 
+# You are not required to understand any of the mathematics of the above function. You are simply required to type it in. However, as a programmer, you will need to ensure that necessary variables (i.e. x, y, w2 and w3) have their correct values.
+# 4. Finally, you must show the image on the screen and then use the ‘writePictureTo’ function in JES to the output your image to a file named ‘idOutput.png’. You will need to enter the full path which will depend on your computer and this is fine for the submission. 
+# However, please make sure that the image name and its extension (png) are as given.
